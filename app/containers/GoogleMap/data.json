@@ -1,0 +1,65 @@
+{
+    "branches": [
+        {
+            "name": "Praha",
+            "location": {
+                "lat": 50.0872196, 
+                "lng": 14.4203075
+            },
+            "zoom": 17,
+            "info": {
+                "name": "Prague Office",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a convallis diam. In porta libero a neque cursus, quis tincidunt enim venenatis. Donec rutrum mi vitae nulla tristique, sed vestibulum tellus sagittis."
+            }
+        },
+        {
+            "name": "Brno",
+            "location": {
+                "lat": 49.1948415, 
+                "lng": 16.6070072
+            },
+            "zoom": 17,
+            "info": {
+                "name": "Brno Office",
+                "description": "Aliquam eget sapien sit amet nunc elementum vulputate. Mauris dapibus, nulla vitae eleifend vehicula, mi est porttitor sem, non finibus odio metus et lacus."
+            }              
+        },
+        {
+            "name": "Plzeň",
+            "location": {
+                "lat": 49.7471462, 
+                "lng": 13.3763526
+            },
+            "zoom": 17,
+            "info": {
+                "name": "Plzeň Office",
+                "description": "Etiam eget feugiat lorem. In hac habitasse platea dictumst. Ut ullamcorper ac tellus pulvinar sagittis. Phasellus in diam velit. Mauris porta magna nunc, ac varius neque malesuada id."
+            }
+        },
+        {
+            "name": "Pardubice",
+            "location": {
+                "lat": 50.0371707, 
+                "lng": 15.7780587
+            },
+            "zoom": 17,
+            "info": {
+                "name": "Pardubice Office",
+                "description": "Etiam eget feugiat lorem. In hac habitasse platea dictumst. Ut ullamcorper ac tellus pulvinar sagittis. Phasellus in diam velit. Mauris porta magna nunc, ac varius neque malesuada id."
+            }                 
+        },
+        {
+            "name": "Berlin",
+            "location": {
+                "lat": 52.5174998, 
+                "lng": 13.4045468
+            },
+            "zoom": 17,
+            "info": {
+                "name": "Berlin Office",
+                "description": "Etiam eget feugiat lorem. In hac habitasse platea dictumst. Ut ullamcorper ac tellus pulvinar sagittis. Phasellus in diam velit. Mauris porta magna nunc, ac varius neque malesuada id."
+            }                 
+        }        
+        
+    ]  
+}
