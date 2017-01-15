@@ -1,4 +1,4 @@
-# React devstack
+# React googleMap
 
 ### Version
 1.0.0
@@ -13,7 +13,7 @@ Minimal [React](https://facebook.github.io/react/) devstack included:
 
 ### Installation
 ```sh
-$ git clone https://github.com/pavelsuraba/react-devstack.git
+$ git clone https://github.com/pavelsuraba/react-googleMap.git
 $ yarn
 ```
 
