@@ -34,7 +34,7 @@ export default class GoogleMap extends Component {
                     <Search setCurrentLocation={this.setCurrentLocation} data={data.branches}/>
                 </GoogleMapSearch>
                 <Location name={this.state.name}/>
-                <Map mapSetting={this.state} data={data.branches}/>
+                <Map mapSetting={this.state} data={data.branches} key={this.props.key}/>
             </GoogleMapContainer>
         )
     }

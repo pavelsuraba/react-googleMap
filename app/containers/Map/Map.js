@@ -10,7 +10,7 @@ export default class Map extends Component {
         this.places = this.props.data;
         this.resize = this.resize.bind(this);
 
-        GoogleMapsLoader.KEY = 'AIzaSyBQUgyxeiCobYeGIT1ThSg0UkBdbUKKEn4';
+        GoogleMapsLoader.KEY = this.props.key;
     }
 
     componentDidMount() {
