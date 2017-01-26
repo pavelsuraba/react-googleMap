@@ -1,7 +1,7 @@
 # React googleMap
 
 ### Version
-1.0.0
+1.0.1
 
 ### Description
 Minimal [React](https://facebook.github.io/react/) devstack included:
