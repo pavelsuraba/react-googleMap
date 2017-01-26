@@ -10,7 +10,7 @@ export default class Map extends Component {
         this.places = this.props.data;
         this.resize = this.resize.bind(this);
 
-        GoogleMapsLoader.KEY = this.props.key;
+        GoogleMapsLoader.KEY = this.props.apiKey;
     }
 
     componentDidMount() {
@@ -69,7 +69,7 @@ export default class Map extends Component {
                     map: this.googleMap
                 });
 
-                marker.addListener('click', function() {
+                marker.addListener('click', () => {
                     infowindow.open(this.googleMap, marker);
                 });
                 resolve(marker);

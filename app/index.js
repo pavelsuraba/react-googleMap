@@ -5,4 +5,4 @@ import globalStyles from '_utils/global-styles';
 import GoogleMap from 'containers/GoogleMap/GoogleMap';
 import KEY from './apiKey.js'
 
-render(<GoogleMap key={KEY}/>, document.querySelector('#app'));
+render(<GoogleMap apiKey={KEY}/>, document.querySelector('#app'));

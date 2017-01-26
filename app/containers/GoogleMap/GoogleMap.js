@@ -7,8 +7,8 @@ import Location from 'components/Location/Location';
 import {GoogleMapContainer,GoogleMapSearch} from 'components/_GoogleMap/styles';
 
 export default class GoogleMap extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.setCurrentLocation = this.setCurrentLocation.bind(this)
 
@@ -34,7 +34,7 @@ export default class GoogleMap extends Component {
                     <Search setCurrentLocation={this.setCurrentLocation} data={data.branches}/>
                 </GoogleMapSearch>
                 <Location name={this.state.name}/>
-                <Map mapSetting={this.state} data={data.branches} key={this.props.key}/>
+                <Map mapSetting={this.state} data={data.branches} apiKey={this.props.apiKey}/>
             </GoogleMapContainer>
         )
     }
